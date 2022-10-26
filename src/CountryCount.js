@@ -4,7 +4,7 @@ import allCountryScores from "./scoreArray";
 const CountryCount = () => {
     return (
       <div className="container">
-        <table>
+        <table> 
         {allCountryScores.map((country, index) => (
             <tbody key={index.id}>
               <tr key={index.id}>
